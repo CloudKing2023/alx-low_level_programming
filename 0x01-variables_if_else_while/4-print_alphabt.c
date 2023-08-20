@@ -1,0 +1,24 @@
+#include<stdio.h>
+
+/**
+ * main - Entry point
+ *
+ * Return:always 0
+ */
+
+int main(void)
+{
+	int n = 97;
+
+	while (n <= 122)
+	{
+		if (n == 101 || n == 121)
+		{
+			n++;
+			continue;
+		}
+		putchar (n);
+		n++;
+	}
+	return (0);
+}
